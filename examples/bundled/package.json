@@ -1,0 +1,22 @@
+{
+  "name": "@ImgProcessor-example/bundled",
+  "version": "0.0.0",
+  "dependencies": {
+    "@ImgProcessor/core": "workspace:*",
+    "@ImgProcessor/dashboard": "workspace:*",
+    "@ImgProcessor/google-drive": "workspace:*",
+    "@ImgProcessor/instagram": "workspace:*",
+    "@ImgProcessor/tus": "workspace:*",
+    "@ImgProcessor/url": "workspace:*",
+    "@ImgProcessor/webcam": "workspace:*"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  }
+}
