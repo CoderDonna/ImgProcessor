@@ -1,0 +1,17 @@
+{
+  "name": "@ImgProcessor-example/multiple-instances",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@ImgProcessor/core": "workspace:*",
+    "@ImgProcessor/dashboard": "workspace:*",
+    "@ImgProcessor/golden-retriever": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
