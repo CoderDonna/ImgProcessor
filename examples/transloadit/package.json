@@ -1,0 +1,28 @@
+{
+  "name": "@ImgProcessor-example/transloadit",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@ImgProcessor/core": "workspace:*",
+    "@ImgProcessor/dashboard": "workspace:*",
+    "@ImgProcessor/drop-target": "workspace:*",
+    "@ImgProcessor/form": "workspace:*",
+    "@ImgProcessor/image-editor": "workspace:*",
+    "@ImgProcessor/progress-bar": "workspace:*",
+    "@ImgProcessor/remote-sources": "workspace:*",
+    "@ImgProcessor/transloadit": "workspace:*",
+    "@ImgProcessor/webcam": "workspace:*",
+    "express": "^4.16.4",
+    "he": "^1.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client": "vite",
+    "start": "npm-run-all --parallel start:server start:client"
+  }
+}
