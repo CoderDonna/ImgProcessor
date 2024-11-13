@@ -1,0 +1,24 @@
+{
+  "name": "@ImgProcessor-example/vue2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@ImgProcessor/core": "workspace:*",
+    "@ImgProcessor/dashboard": "workspace:*",
+    "@ImgProcessor/drag-drop": "workspace:*",
+    "@ImgProcessor/progress-bar": "workspace:*",
+    "@ImgProcessor/transloadit": "workspace:*",
+    "@ImgProcessor/vue": "workspace:*",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
